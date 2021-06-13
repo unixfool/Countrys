@@ -4,7 +4,7 @@
 IP FROM      IP TO        REGISTRY  ASSIGNED   CTRY CNTRY COUNTRY<br/>
 "1346797568","1346801663","ripencc","20010601","IL","ISR","ISRAEL"
 
-
+```
 <?php
 $two_letter_country_code=iptocountry("IP-HERE");
 
@@ -21,3 +21,4 @@ function iptocountry($ip) {
     return $country;
 }
 ?>
+```
